@@ -322,7 +322,7 @@ section.content-section p {
   z-index: 1;
 }
 
-.step:nth-child(1)::before { background-image: url('../img/step-1.jpg'); }
+.step:nth-child(1)::before { background-image: url('../img/step-1.jpeg'); }
 .step:nth-child(2)::before { background-image: url('../img/step-2.jpg'); }
 .step:nth-child(3)::before { background-image: url('../img/step-3.jpg'); }
 

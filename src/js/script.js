@@ -55,6 +55,9 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 document.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.add('french');
+  document.documentElement.lang = 'fr';
+
   document.querySelectorAll('.content-section, .timeline').forEach(el => observer.observe(el));
 
   // Hero animation
